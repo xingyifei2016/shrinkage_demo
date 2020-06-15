@@ -8,6 +8,7 @@ We propose C-SURE, a novel Stein’s unbiased risk esti-mate (SURE) of the JS es
 
 We compare C-SURE with SurReal and a real-valuedbaseline on complex-valued MSTAR and RadioML datasets.C-SURE is more accurate and robust than SurReal,  andthe shrinkage estimator is always better than MLE for thesame prototype classifier.  Like SurReal, C-SURE is muchsmaller, outperforming the real-valued baseline on MSTAR(RadioML) with less than1%(3%) of the baseline size.
 <img src='./asset/1.png' width=800>
+<img src='./asset/2.png' width=800>
 
 ## People
 - [Yifei Xing](mailto:xingyifei2016@berkeley.edu) 
@@ -16,7 +17,7 @@ We compare C-SURE with SurReal and a real-valuedbaseline on complex-valued MSTAR
 - [Stella Yu](mailto:stellayu@berkeley.edu)
 
 
-<img src='./asset/2.png' width=800>
+<img src='./asset/3.png' width=800>
 
 ## Requirements
 * [PyTorch](https://pytorch.org/)
