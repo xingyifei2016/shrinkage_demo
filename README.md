@@ -28,6 +28,10 @@ We compare C-SURE with SurReal and a real-valued baseline on complex-valued MSTA
 
 - Next, extract `data_polar.zip` and set the correct path to the data_polar folder inside the argparse configuration in `train_demo.py`
 
+## Baseline
+[Here](https://github.com/xingyifei2016/RotLieNet) is code for the baseline SurReal model that we used in the paper. 
+
+
 
 ## Getting Started (Training & Testing)
 
