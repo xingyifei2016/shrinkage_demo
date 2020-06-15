@@ -4,9 +4,9 @@
 
 The James-Stein (JS) shrinkage estimator is a biased estimator that captures the mean of Gaussian random vectors. While it has a desirable statistical property of dominanceover the maximum likelihood estimator (MLE) in terms ofmean squared error (MSE), not much progress has beenmade on extending the estimator onto manifold-valued data.
 
-We propose C-SURE, a novel Stein’s unbiased risk esti-mate (SURE) of the JS estimator on the manifold of complex-valued data with a theoretically proven optimum over MLE.Adapting the architecture of the complex-valued SurRealclassifier, we further incorporate C-SURE into a prototypeconvolutional neural network (CNN) classifier.
+We propose C-SURE, a novel Stein’s unbiased risk esti-mate (SURE) of the JS estimator on the manifold of complex-valued data with a theoretically proven optimum over MLE. Adapting the architecture of the complex-valued SurRealclassifier, we further incorporate C-SURE into a prototype convolutional neural network (CNN) classifier.
 
-We compare C-SURE with SurReal and a real-valuedbaseline on complex-valued MSTAR and RadioML datasets.C-SURE is more accurate and robust than SurReal,  andthe shrinkage estimator is always better than MLE for thesame prototype classifier.  Like SurReal, C-SURE is muchsmaller, outperforming the real-valued baseline on MSTAR(RadioML) with less than1%(3%) of the baseline size.
+We compare C-SURE with SurReal and a real-valued baseline on complex-valued MSTAR and RadioML datasets.C-SURE is more accurate and robust than SurReal,  andthe shrinkage estimator is always better than MLE for thesame prototype classifier.  Like SurReal, C-SURE is muchsmaller, outperforming the real-valued baseline on MSTAR(RadioML) with less than1%(3%) of the baseline size.
 <img src='./asset/1.png' width=800>
 <img src='./asset/2.png' width=800>
 
