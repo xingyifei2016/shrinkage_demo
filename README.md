@@ -46,5 +46,8 @@ python train_demo.py
 ## CAUTION
 The current code was prepared using single GPU. The use of multi-GPU may cause problems. 
 
+## DISCLAIMER
+The wFM layers (SurReal) were proposed and written by Rudrasis Chakraborty, this work focuses on constructing a shrinkage layer on top of the SurReal architecture.
+
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
