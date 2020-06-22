@@ -22,7 +22,9 @@ We compare C-SURE with SurReal and a real-valued baseline on complex-valued MSTA
 ## Requirements
 * [PyTorch](https://pytorch.org/)
 
-## Data Preparation
+## Data 
+
+<img src='./asset/Picture1.png' width=800>
 
 - First, run `cat data_split* > data_polar.zip` inside the `data` folder.
 
