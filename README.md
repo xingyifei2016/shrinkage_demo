@@ -7,8 +7,8 @@ The James-Stein (JS) shrinkage estimator is a biased estimator that captures the
 We propose C-SURE, a novel Stein’s unbiased risk esti-mate (SURE) of the JS estimator on the manifold of complex-valued data with a theoretically proven optimum over MLE. Adapting the architecture of the complex-valued SurRealclassifier, we further incorporate C-SURE into a prototype convolutional neural network (CNN) classifier.
 
 We compare C-SURE with SurReal and a real-valued baseline on complex-valued MSTAR and RadioML datasets.C-SURE is more accurate and robust than SurReal, and the shrinkage estimator is always better than MLE for thesame prototype classifier.  Like SurReal, C-SURE is much smaller, outperforming the real-valued baseline on MSTAR(RadioML) with less than1%(3%) of the baseline size.
-<img src='./asset/4.png' width=900>
-<img src='./asset/2.png' width=800>
+<img src='./asset/7.png' width=800>
+<img src='./asset/8.png' width=800>
 
 ## People
 - [Yifei Xing](mailto:xingyifei2016@berkeley.edu) 
@@ -17,7 +17,7 @@ We compare C-SURE with SurReal and a real-valued baseline on complex-valued MSTA
 - [Stella Yu](mailto:stellayu@berkeley.edu)
 
 
-<img src='./asset/3.png' width=800>
+<img src='./asset/4.png' width=1000>
 
 ## Requirements
 * [PyTorch](https://pytorch.org/)
